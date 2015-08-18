@@ -3,10 +3,10 @@ http = require('http'),
 fs = require('fs'),
 path = require('path'),
 url = require('url'),
-camera = require('./camera.js'),
-media = require('./media.js')
+camera = require('./lib/camera.js'),
+media = require('./lib/media.js')
 
-port = Number(process.argv[2]),
+port = Number(process.argv[2]) || 8900,
 
 server = http.createServer(function(req, res) {
   console.log(req.url)
@@ -73,4 +73,5 @@ sendResult = function sendResult(res, result) {
 }
 
 server.listen(port)
-console.log("Server listening at port " + port)
+console.log("Server listening on port " + port)
+
