@@ -1,0 +1,16 @@
+{
+  "name": "gopro-fake",
+  "version": "1.0.0",
+  "description": "Fake GoPro server",
+  "main": "server.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pavel Pokorny",
+  "repository": "git@bitbucket.org:pajk/gopro-fake.git"
+  "license": "MIT"
+}
