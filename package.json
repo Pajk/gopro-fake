@@ -11,6 +11,6 @@
     "start": "node server.js"
   },
   "author": "Pavel Pokorny",
-  "repository": "git@bitbucket.org:pajk/gopro-fake.git"
+  "repository": "git@github.com:Pajk/gopro-fake.git"
   "license": "MIT"
 }
